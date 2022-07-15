@@ -2,7 +2,7 @@
 // import OrgStructure from './OrgStructure';
 // import DocFolders from './DocFolders';
 // import DocList from './DocList';
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
 import CreateDocForm from './CreateDocForm';
 
 function App() {
