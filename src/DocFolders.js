@@ -4,30 +4,30 @@ import folderIcon from'./assets/images/folder-icon.svg';
 
 function DocFolders() {
     return ( 
-        <div class="container">
-            <div class="doc-folder">
+        <div className="container">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">Реестр законодательных актов</p>
+                <p className="doc-folder__name">Реестр законодательных актов</p>
             </div>
-            <div class="doc-folder">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">Приказы</p>
+                <p className="doc-folder__name">Приказы</p>
             </div>
-            <div class="doc-folder">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">ИБОТ</p>
+                <p className="doc-folder__name">ИБОТ</p>
             </div>
-            <div class="doc-folder">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">Внутренние регламентирующие документы</p>
+                <p className="doc-folder__name">Внутренние регламентирующие документы</p>
             </div>
-            <div class="doc-folder">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">Производственные инструкции по эксплуатации</p>
+                <p className="doc-folder__name">Производственные инструкции по эксплуатации</p>
             </div>
-            <div class="doc-folder">
+            <div className="doc-folder">
                 <img src={folderIcon} alt="folder-icon"/>
-                <p class="doc-folder__name">Обязательные страховые полюсы</p>
+                <p className="doc-folder__name">Обязательные страховые полюсы</p>
             </div>
         </div>
      );

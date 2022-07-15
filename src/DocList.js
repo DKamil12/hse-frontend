@@ -3,10 +3,10 @@ import './assets/style/doc_list_style.css';
 
 function DocList() {
     return ( 
-        <div class="doc-list-container">
-            <div class="doc-filter">
-                <div class="doc-filter__row">
-                    <select name="folders-filter" id="#" class="doc-filter__filters">
+        <div className="doc-list-container">
+            <div className="doc-filter">
+                <div className="doc-filter__row">
+                    <select name="folders-filter" id="#" className="doc-filter__filters">
                         <option value="All">Все</option>
                         <option value="folder-1">Реестр законодательных актов</option>
                         <option value="folder-2">Приказы</option>
@@ -15,16 +15,16 @@ function DocList() {
                         <option value="filter-5">Производственные инструкции по эксплуатации</option>
                         <option value="filter-6">Обязательные страховые полюсы</option>
                     </select>
-                    <select name="date-filter" id="" class="doc-filter__filters">
+                    <select name="date-filter" id="" className="doc-filter__filters">
                         <option value="oldest-first">Сначала старые</option>
                         <option value="latest-first">Сначала новые</option>
                     </select>
-                    <input type="search" name="doc-search" id="#" class="doc-filter__search"/>
-                    <button class="doc-filter__add">Добавить</button>
+                    <input type="search" name="doc-search" id="#" className="doc-filter__search"/>
+                    <button className="doc-filter__add">Добавить</button>
                 </div>
             </div>
-            <table class="doc-table">
-                <tr class="doc-table__row doc-table__row_titles">
+            <table className="doc-table">
+                <tr className="doc-table__row doc-table__row_titles">
                     <td>Имя</td>
                     <td>Название документа</td>
                     <td>Код документа</td>
@@ -33,7 +33,7 @@ function DocList() {
                     <td>Срок пересмотра</td>
                     <td>ФИО исполнителя</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
@@ -42,7 +42,7 @@ function DocList() {
                     <td>6 месяцев</td>
                     <td>Cameron Jennings</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
@@ -51,7 +51,7 @@ function DocList() {
                     <td>6 месяцев</td>
                     <td>Cameron Jennings</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
@@ -60,7 +60,7 @@ function DocList() {
                     <td>6 месяцев</td>
                     <td>Cameron Jennings</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
@@ -69,7 +69,7 @@ function DocList() {
                     <td>6 месяцев</td>
                     <td>Cameron Jennings</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
@@ -78,7 +78,7 @@ function DocList() {
                     <td>6 месяцев</td>
                     <td>Cameron Jennings</td>
                 </tr>
-                <tr class="doc-table__row">
+                <tr className="doc-table__row">
                     <td>D0001</td>
                     <td>Производственная инструкция по эксплуатации</td>
                     <td>D12345</td>
