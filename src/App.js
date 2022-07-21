@@ -1,9 +1,9 @@
-// import Authorization from './Authorization';
-// import OrgStructure from './OrgStructure';
+// import Authorization from './components/Authorization';
+// import OrgStructure from './components/OrgStructure';
 // import DocFolders from './DocFolders';
-import DocList from './DocList';
+import DocList from './components/DocList';
 import Navigation from './components/Navigation';
-// import CreateDocForm from './CreateDocForm';
+// import CreateDocForm from './components/CreateDocForm';
 
 function App() {
   return (

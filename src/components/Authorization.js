@@ -1,6 +1,6 @@
 import React from 'react';
-import './assets/style/authorization_style.css';
-import a from './assets/images/AGP-logoauthorization-form-logo.svg';
+import '../assets/style/authorization_style.css';
+import a from '../assets/images/AGP-logoauthorization-form-logo.svg';
 
 function Authorization () {
     return (

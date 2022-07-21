@@ -8,6 +8,7 @@
     align-items: center;
 }
 
+/* TITLE */
 .create-doc__title {
     font-weight: 400;
     font-size: 20px;
@@ -15,10 +16,14 @@
     color: #343434;
     text-align: center;
 }
+/* TITLE */
 
+
+/* GENERAL FORM FIELDS STYLE */
 .create-doc__form {
     margin-top: 40px;
     width: fit-content;
+    max-width: 1070px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,6 +60,8 @@
     border-color: #C8C8C8;
     padding: 0 15px;
 }
+/* GENERAL FORM FIELDS STYLE */
+
 
 /* UPLOADING FIELD */
 .create-doc__upload-file {
@@ -98,10 +105,10 @@
 /* CHECKBOXES */
 .create-doc__checkbox-container {
     display: flex;
-    gap: 100px;
+    gap: 24.5px;
+    align-items: center;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 12px;
+    font-size: 10px;
     color: #343434;
 }
 
@@ -139,7 +146,6 @@
   }
 /* CHECKBOXES */
 
-
 /* ADDITION BUTTON */
 .create-doc__button {
     width: 160px;
@@ -156,4 +162,4 @@
 .create-doc__button:hover {
     background-color: #b71908;
 }
-/* ADDITION BUTTON */
+/* ADDITION BUTTON */ 

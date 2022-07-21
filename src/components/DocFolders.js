@@ -1,6 +1,6 @@
 import React from 'react';
-import './assets/style/doc_folders_style.css';
-import folderIcon from'./assets/images/folder-icon.svg';
+import '../assets/style/doc_folders_style.css';
+import folderIcon from'../assets/images/folder-icon.svg';
 
 function DocFolders() {
     return ( 

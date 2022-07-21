@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/style/doc_list_style.css';
+import '../assets/style/doc_list_style.css';
 
 function DocList() {
     return ( 

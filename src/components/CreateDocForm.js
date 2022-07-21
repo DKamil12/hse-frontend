@@ -1,6 +1,6 @@
 import React from 'react';
-import './assets/style/create_doc_form_style.css';
-import uploadIcon from './assets/images/upload-icon.svg';
+import '../assets/style/create_doc_form_style.css';
+import uploadIcon from '../assets/images/upload-icon.svg';
 
 function CreateDocForm() {
     return ( 
@@ -69,9 +69,14 @@ function CreateDocForm() {
                 <div className="create-doc__field">
                     <div className="create-doc__checkbox-container">
                         {/* READ ACCESS */}
-                        <div className="create-doc__checkbox">
-                            <input type="checkbox" name="read-access" id="read-access" className="checkbox"/>
-                            <label for="read-access">Доступ к чтению</label>
+                        <div className="create-doc__field">
+                            <div className="create-doc__field-title">Доступ к чтению</div>
+                            <select name="read-access" id="read-access" class="create-doc__field-content">
+                                <option value="security-dep">Департамент безопасности</option>
+                                <option value="hr-dep">Департамент HR</option>
+                                <option value="iso-dep">Департамент ПБ, ОТ, Э и ИСО</option>
+                                <option value="inner-control-dep">Служба внутреннего контроля</option>
+                            </select>
                         </div>
                         {/* ONE-CICK READ */}
                         <div className="create-doc__checkbox">
